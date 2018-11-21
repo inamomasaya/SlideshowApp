@@ -40,7 +40,7 @@
                                     <constraint firstAttribute="width" secondItem="VIe-UP-CLE" secondAttribute="height" multiplier="241:128" id="sFq-ym-n1Y"/>
                                 </constraints>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="taa-nR-HYC" appends="YES" id="q92-aq-EUY"/>
+                                    <outletCollection property="gestureRecognizers" destination="Hxl-bK-ZAd" appends="YES" id="EIf-I0-hjP"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMM-Nf-INP">
@@ -74,14 +74,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="taa-nR-HYC">
+                <tapGestureRecognizer id="Hxl-bK-ZAd">
                     <connections>
-                        <action selector="onTapImage:" destination="BYZ-38-t0r" id="Jk2-qZ-UD8"/>
-                        <segue destination="d5E-SP-VvF" kind="show" id="yxF-Qi-cSA"/>
+                        <segue destination="d5E-SP-VvF" kind="show" id="Dep-nO-SWX"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="317.60000000000002" y="46.326836581709152"/>
+            <point key="canvasLocation" x="247" y="45"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="QUy-63-smW">

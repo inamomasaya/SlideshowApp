@@ -77,15 +77,16 @@ class ViewController: UIViewController {
         self.imageView.image = image
     }
     
-    
-    @IBAction func onTapImage(_ sender: Any) {
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
             resultViewController.IMAGE = self.imageView.image
+        
+        if timer != nil{
+            timer.invalidate()
+            timer = nil
+        }
     }
     
     
@@ -108,6 +109,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        button.setTitle("再生", for:.normal)
+        next1.isEnabled = true
+        next2.isEnabled = true
+        
     }
 }
 
