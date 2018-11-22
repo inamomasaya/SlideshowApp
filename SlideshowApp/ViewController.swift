@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     var timer: Timer!
     var dispimageNo = 0
-    let photo:[String] = ["image1","image2","image3","image4","image5","image6","image7","image8","image9","image10"]
+    let photo:[String] = ["image1.jpg","image2.jpg","image3.jpg","image4.jpg","image5.jpg","image6.jpg","image7.jpg","image8.jpg","image9.jpg","image10.jpg"]
     
     
     @IBOutlet weak var next1: UIButton!
